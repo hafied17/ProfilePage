@@ -12,6 +12,7 @@
 		2881D5222CFF104600FBCBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2881D5212CFF104600FBCBA6 /* Assets.xcassets */; };
 		2881D5252CFF104600FBCBA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2881D5242CFF104600FBCBA6 /* Preview Assets.xcassets */; };
 		2881D52C2CFF165200FBCBA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2881D52B2CFF165200FBCBA6 /* GoogleService-Info.plist */; };
+		2881D5322CFF6C2900FBCBA6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2881D5312CFF6C2900FBCBA6 /* UserModel.swift */; };
 		6C0A0275F0EE740ED7FC8EB1 /* Pods_ProfilePage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20D8663488090BCE6F7FDFA /* Pods_ProfilePage.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		2881D5212CFF104600FBCBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2881D5242CFF104600FBCBA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2881D52B2CFF165200FBCBA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2881D5312CFF6C2900FBCBA6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		2AF81DA0033C88A836AFB948 /* Pods-ProfilePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfilePage.release.xcconfig"; path = "Target Support Files/Pods-ProfilePage/Pods-ProfilePage.release.xcconfig"; sourceTree = "<group>"; };
 		32A03954E1452932C762B15B /* Pods-ProfilePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProfilePage.debug.xcconfig"; path = "Target Support Files/Pods-ProfilePage/Pods-ProfilePage.debug.xcconfig"; sourceTree = "<group>"; };
 		B20D8663488090BCE6F7FDFA /* Pods_ProfilePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProfilePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 		2881D52F2CFF66C800FBCBA6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				2881D5312CFF6C2900FBCBA6 /* UserModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2881D5202CFF104400FBCBA6 /* ContentView.swift in Sources */,
+				2881D5322CFF6C2900FBCBA6 /* UserModel.swift in Sources */,
 				2881D51E2CFF104400FBCBA6 /* ProfilePageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
