@@ -6,9 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseAuth
+import FirebaseStorage
+import FirebaseFirestore
 
 @main
 struct ProfilePageApp: App {
+    init() {
+        FirebaseApp.configure()
+        print("Configure firebase!")
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
